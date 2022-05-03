@@ -23,7 +23,7 @@ class Preprocessor:
     
     def __init__(self):
         self.data = DataInput().inputFunction()
-        print("\n\n" + self.bold_start + "WELCOME TO THE MACHINE LEARNING PREPROCESSOR CLI!!!\N{grinning face}" + self.bold_end + "\n\n")
+        print("\n\n" + self.bold_start + "WELCOME TO THE MACHINE LEARNING PRE PROCESSOR!!!\N{grinning face}" + self.bold_end + "\n\n")
 
     # function to remove the target column of the DataFrame.
     def removeTargetColumn(self):
