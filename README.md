@@ -46,7 +46,16 @@ Make a separate class for Data Description where all below functions will be def
 6. Handle all the exceptions in the input.
 
 ## Step-3: Handling NULL Values
--> The next step of data preprocessing is to handle missing data in the datasets. If your dataset contains some missing data, then it may create a huge problem for        your machine learning model. Hence it is necessary to handle missing values present in the dataset.
--> The handling of missing values is also called Data Imputation.
--> The idea of this milestone is to remove all the NULL values from the dataset.
+1. The next step of data preprocessing is to handle missing data in the datasets. If your dataset contains some missing data, then it may create a huge problem for        your machine learning model. Hence it is necessary to handle missing values present in the dataset.
+2. The handling of missing values is also called Data Imputation. The idea is to remove all the NULL values from the dataset.
 
+## Step-4: Encoding Categorcial Data
+1. Categorical data is data which has some categories. Machine learning models completely works on mathematics and numbers, but if your dataset would have a categorical variable, then it may create trouble while building the model. So, it is necessary to encode these categorical variables into numbers.
+
+## Step-5: Feature Scaling
+1. Feature scaling is a method used to normalize the range of independent variables or columns of data. It is done to handle highly varying magnitudes among different    columns.
+2. If feature scaling is not done, then a machine learning algorithm tends to weigh greater values, higher and consider smaller values as the lower values, regardless    of the unit of the values. To avoid this, feature scaling is done.
+3. There are 2 main ways of doing feature scaling:
+
+a. Normalization
+b. Standardization
