@@ -25,3 +25,22 @@ I will apply the following preprocessing steps:
 6. Download the preprocessed Dataset
 
 Pandas and scikit learn will be used throughout the project to perform the preprocessig steps.
+
+## Step-1: Input the Dataset
+There are several types of Machine Learning such as Supervised learning, Unsupervised learning etc. Here, you are writing python scripts to make preprocessed dataset for performing supervised learning.
+--> For simultaneously testing I will be performing the preprocessing on a very popular ML dataset - Titanic survival Dataset available on Kaggle.
+
+1. Make a main class for the Project where all below functions will be defined -
+  1.1. A function that only takes a ‘.csv’ input from the command line.
+  1.2. A function that chooses a target (dependent) variable and removes it from the dataset, so that you can start preprocessing on all the independent variables.
+2. Each task will have a separate class and will be called by their respective object.
+3. Handle all the exceptions in the input.
+
+## Step-2: Data Description
+1. Make a separate class for Data Description where all below functions will be defined -
+  1.1. A function that shows properties (mean, standard deviation, percentiles, total number of values, maximum, minimum) of each numeric column. This function should        also show the datatypes along with the null value count of each column.
+  1.2. A function that shows the property of any specific column.
+    1.2.1. A numeric column should show properties like mean, standard deviation, percentiles, total number of values, maximum and minimum.
+    1.2.2. A string column should show properties like total number of values and number of distinct values.
+  1.3. A function that takes a number of rows ‘n’ as input and prints the dataset.
+2. Handle all the exceptions in the input.
