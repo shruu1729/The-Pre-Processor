@@ -58,4 +58,5 @@ Make a separate class for Data Description where all below functions will be def
 3. There are 2 main ways of doing feature scaling:
 
 a. Normalization
+
 b. Standardization
