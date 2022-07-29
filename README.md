@@ -44,3 +44,4 @@ There are several types of Machine Learning such as Supervised learning, Unsuper
     1.2.2. A string column should show properties like total number of values and number of distinct values.
   1.3. A function that takes a number of rows ‘n’ as input and prints the dataset.
 2. Handle all the exceptions in the input.
+
