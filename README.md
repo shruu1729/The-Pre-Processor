@@ -45,3 +45,8 @@ Make a separate class for Data Description where all below functions will be def
 5. A function that takes a number of rows ‘n’ as input and prints the dataset.
 6. Handle all the exceptions in the input.
 
+## Step-3: Handling NULL Values
+-> The next step of data preprocessing is to handle missing data in the datasets. If your dataset contains some missing data, then it may create a huge problem for        your machine learning model. Hence it is necessary to handle missing values present in the dataset.
+-> The handling of missing values is also called Data Imputation.
+-> The idea of this milestone is to remove all the NULL values from the dataset.
+
