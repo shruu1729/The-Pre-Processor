@@ -24,6 +24,9 @@ I will apply the following preprocessing steps:
 5. Feature Scaling
 6. Download the preprocessed Dataset
 
+![image](https://user-images.githubusercontent.com/98046628/181773637-a0cb7ace-fdcc-4fed-b8c5-b0ed1150d2b9.png)
+
+
 Pandas and scikit learn will be used throughout the project to perform the preprocessig steps.
 
 ## Step-1: Input the Dataset
@@ -60,3 +63,6 @@ Make a separate class for Data Description where all below functions will be def
 a. Normalization
 
 b. Standardization
+
+## Step-6: Download the dataset
+1. As all the preprocessing is done, you can implement the functionality to download the preprocessed dataset.
